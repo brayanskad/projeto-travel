@@ -7,7 +7,7 @@
     font-style: normal; */
 
 
-root {
+:root {
     --laranja: #EB662B;
 }
 
@@ -59,7 +59,7 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 88px;
+    margin-top: 20px;
 }
 
 .cabecalho {
@@ -77,8 +77,12 @@ ul {
     border-radius: 22px
 }
 
+section {
+    padding: 50px;
+}
+
 .banner {
-    background-image: url(./assets/sections/Section.png);
+    background-image: url(./assets/banner/Section.png);
     background-repeat: no-repeat;
     width: 1800px;
     height: 702.13px;
@@ -111,7 +115,7 @@ ul {
     font-weight: 300;
 }
 
-.quadrado-banner{
+.quadrado-banner {
     width: 850px;
     height: 80px;
     background-color: #E7E6E6;
@@ -126,9 +130,10 @@ ul {
     display: flex;
     flex-direction: row;
     margin: auto;
-    gap: 5px;
+    gap: 20px;
     align-items: center;
-    justify-content: space-evenly;
+    font-size: 14px;
+    padding: 5px;
 }
 
 .formas {
@@ -143,8 +148,108 @@ ul {
     border-radius: 12px;
 }
 
-.caixa-btn-search{
-    width: 136.95px;
+.caixa-btn-search {
+    background-color: #EB662B;
     height: 60px;
+    width: 136.95px;
+    border-radius: 12px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
 
+.btn-search {
+    border: none;
+    background-color: #EB662B;
+    color: #ffffff;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+
+.section-qualidades {
+    margin: auto;
+    width: 1320px;
+    height: 296.38px;
+    color: #05073C;
+}
+
+.texto-titulo1 {
+    height: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.conteiner-icones {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 40px
+}
+
+.bi {
+    font-size: 40px;
+    color: var(--laranja);
+}
+
+.strong {
+    font-size: 17.72px;
+    font-weight: 500;
+}
+
+.texto-icone {
+    font-size: 14.88px;
+    font-weight: 400;
+}
+
+.caixa-icone {
+    width: 200px;
+}
+
+.section-carrosel {
+    margin: auto;
+    width: 1320px;
+    height: 390.25px;
+    color: #05073C;
+}
+
+.carrosel{
+    margin-top: 80px;
+}
+
+
+.caixa-box-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.box-titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.box-descricao {
+    font-size: 14.3;
+    font-weight: 400;
+}
+
+.box-turismo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa-texto-turismo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.Tours-polular{
+    width: 1320px;
+    height: 940.63px;
 }
