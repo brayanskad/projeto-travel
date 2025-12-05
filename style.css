@@ -173,18 +173,20 @@ section {
     color: #05073C;
 }
 
+.qualidades{
+    margin-top: 90px;
+}
+
 .texto-titulo1 {
     height: 45px;
     font-weight: 700;
     font-size: 30px;
-    padding: 40px;
 }
 
 .conteiner-icones {
     display: flex;
     flex-direction: row;
     gap: 100px;
-    padding: 40px
 }
 
 .bi {
@@ -252,4 +254,6 @@ section {
 .Tours-polular{
     width: 1320px;
     height: 940.63px;
+    background-color: var(--laranja);
+    margin: auto;
 }
