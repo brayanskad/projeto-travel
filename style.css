@@ -173,8 +173,15 @@ section {
     color: #05073C;
 }
 
-.qualidades{
-    margin-top: 90px;
+
+.caixa-titulo {
+    margin-bottom: 50px;
+}
+
+.caixa-icone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .texto-titulo1 {
@@ -190,12 +197,12 @@ section {
 }
 
 .bi {
-    font-size: 40px;
+    font-size: 50px;
     color: var(--laranja);
 }
 
 .strong {
-    font-size: 17.72px;
+    font-size: 16.72px;
     font-weight: 500;
 }
 
@@ -215,7 +222,7 @@ section {
     color: #05073C;
 }
 
-.carrosel{
+.carrosel {
     margin-top: 80px;
 }
 
@@ -244,14 +251,14 @@ section {
     justify-content: space-between;
 }
 
-.caixa-texto-turismo{
+.caixa-texto-turismo {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.Tours-polular{
+.Tours-polular {
     width: 1320px;
     height: 940.63px;
     background-color: var(--laranja);
