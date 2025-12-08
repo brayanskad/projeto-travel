@@ -1,23 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-/* font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal; */
-
-
 :root {
     --laranja: #EB662B;
 }
 
 * {
-
     padding: 0;
     margin: 0;
-    font-family: "Inter", sans-serif;
+    
 }
-
 
 li a {
     text-decoration: none;
@@ -261,6 +252,80 @@ section {
 .Tours-polular {
     width: 1320px;
     height: 940.63px;
-    background-color: var(--laranja);
     margin: auto;
+    gap: 100px;
+}
+
+.container-tours {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
+.caixa-titulo-tours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-tours {
+    font-size: 29.41px;
+    font-weight: 700;
+}
+
+.descricao-tours {
+    font-size: 14.3px;
+    font-weight: 400;
+}
+
+.caixa-tours {
+    border: 1px solid black;
+    width: 300px;
+    height: 388.31px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+#img-tours {
+    margin: 15px;
+}
+
+.pais-tours {
+    margin-left: 15px;
+    font-size: 12.29px;
+    font-weight: 400;
+}
+
+.local-tours {
+    margin: 15px;
+    font-size: 15.88px;
+    font-weight: 500;
+}
+
+.caixa-avaliacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    margin: 15px;
+}
+
+.bi-star-fill {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.avaliacoes-tours {
+    font-size: 12.49px;
+    font-weight: 400;
+}
+
+.dias-tours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
