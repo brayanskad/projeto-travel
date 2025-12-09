@@ -7,7 +7,7 @@
 * {
     padding: 0;
     margin: 0;
-    
+
 }
 
 li a {
@@ -66,6 +66,12 @@ ul {
     height: 0px;
     color: white;
     border-radius: 22px
+}
+
+.login:hover {
+    width: 50px;
+    height: 20px;
+    transition: 0.5s ease-in-out;
 }
 
 section {
@@ -249,11 +255,26 @@ section {
     gap: 5px;
 }
 
+.texto-pais {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-img {
+    width: 130px;
+    height: 130px;
+}
+
+.box-img:hover {
+    width: 150px;
+    height: 150px;
+    transition: 0.1s ease-in-out;
+}
+
 .Tours-polular {
     width: 1320px;
     height: 940.63px;
     margin: auto;
-    gap: 100px;
 }
 
 .container-tours {
@@ -261,14 +282,15 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 10px;
-    justify-content: flex-start;
 }
 
 .caixa-titulo-tours {
     display: flex;
-    justify-content: space-between;
+    gap: 1000px;
+    align-items: center;
+
 }
 
 .titulo-tours {
@@ -304,6 +326,8 @@ section {
     margin: 15px;
     font-size: 15.88px;
     font-weight: 500;
+    width: 220.27px;
+    height: 45px;
 }
 
 .caixa-avaliacoes {
@@ -328,4 +352,9 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.section-oferta{
+    width: 1320px;
+    margin: auto;
 }
