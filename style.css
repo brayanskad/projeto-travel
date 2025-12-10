@@ -417,7 +417,7 @@ section {
 .popular {
     width: 1320px;
     margin: auto;
-    
+
 }
 
 .caixa-titulo-popular {
@@ -528,10 +528,52 @@ section {
     background-image: url(./assets/popular-things/hiking.png);
 
 }
-.trending {
+
+.top-trending {
+    width: 1530px;
+    margin: auto;
+}
+
+.container-trending {
     width: 1530px;
     height: 767.31px;
     margin: auto;
     background-color: #F5F5F5;
     border-radius: 12px;
+    padding: 30px;
+
+}
+
+.box-txt-trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.txt-trending {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.txt-descricao {
+    font-size: 14.3px;
+    font-weight: 400;
+}
+
+.box-quadrado-trending {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.quadrado-trending {
+    border-radius: 12px;
+    width: 300px;
+    height: 412.31px;
+    background-color: #ffffff;
+    border: 1px solid black;
 }
