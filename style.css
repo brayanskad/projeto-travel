@@ -2,6 +2,7 @@
 
 :root {
     --laranja: #EB662B;
+    --texto: #05073C;
 }
 
 * {
@@ -354,7 +355,183 @@ section {
     justify-content: space-around;
 }
 
-.section-oferta{
+.section-oferta {
+    width: 1530px;
+    margin: auto;
+}
+
+.banner-oferta {
+    background-image: url(./assets/oferta-limitada/banner-oferta.png);
+    background-repeat: no-repeat;
+    width: 1530px;
+    height: 606.13px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.caixa-texto-oferta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.color {
+    color: var(--laranja);
+}
+
+.texto-oferta {
+    width: 366.14px;
+    height: 156px;
+    color: #05073C;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 200px;
+}
+
+.descricao-oferta {
+    width: 315.22px;
+    height: 28.13px;
+    color: #05073C;
+    font-size: 14.77px;
+    font-weight: 400;
+    margin-right: 150px;
+}
+
+.btn-oferta {
+    width: 167.86px;
+    height: 62px;
+    background-color: #EB662B;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+    padding: 20px;
+}
+
+.popular {
     width: 1320px;
     margin: auto;
+    
+}
+
+.caixa-titulo-popular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-titulo-popular {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.texto-descricao-popular {
+    font-size: 14.3px;
+    font-weight: 400;
+}
+
+.caixa-activities {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: blueviolet;
+}
+
+
+.caixa-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.viagem {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.viagem:hover {
+    transform: scale(1.05);
+}
+
+.viagem p {
+    display: flex;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.cruises {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/popular-things/Cruises.png);
+}
+
+.beach-tours {
+    width: 410px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/popular-things/Beach-Tours.png);
+}
+
+.city-tours {
+    width: 520px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/popular-things/City-Tours.png);
+}
+
+.museum-tour {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/popular-things/Museum-Tour.png);
+}
+
+.food {
+    width: 190px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/popular-things/Food.png);
+}
+
+.hiking {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/popular-things/hiking.png);
+
+}
+.trending {
+    width: 1530px;
+    height: 767.31px;
+    margin: auto;
+    background-color: #F5F5F5;
+    border-radius: 12px;
 }
